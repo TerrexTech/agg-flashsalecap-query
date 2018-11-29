@@ -1,0 +1,6 @@
+# Dockerfile used by GoReleaser
+FROM scratch
+LABEL maintainer="Jaskaranbir Dhillon"
+
+COPY /agg-flashsalecap-query ./
+ENTRYPOINT ["./agg-flashsalecap-query"]
